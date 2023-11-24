@@ -36,3 +36,5 @@ IMPORTANT: launch the server first, then the client.
 ![Alt text](https://github.com/JiangboWANGfr/Server_Client/blob/main/results/client.png)
 
 ## License
+
+Licensed under the MIT License.
