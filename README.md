@@ -35,4 +35,7 @@ IMPORTANT: launch the server first, then the client.
 ![Alt text](https://github.com/JiangboWANGfr/Server_Client/blob/main/results/server.png)
 ![Alt text](https://github.com/JiangboWANGfr/Server_Client/blob/main/results/client.png)
 
+<img src="https://github.com/JiangboWANGfr/Server_Client/blob/main/results/server.png" width="300" height="200" alt="Server Image">
+<img src="https://github.com/JiangboWANGfr/Server_Client/blob/main/results/client.png" width="300" height="200" alt="Client Image">
+
 ## License
