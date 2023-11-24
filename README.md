@@ -32,7 +32,7 @@ IMPORTANT: launch the server first, then the client.
 
 ## Screenshot
 
-![Alt text](client-1.png)
-![Alt text](client.png)
+![Alt text](https://github.com/JiangboWANGfr/Server_Client/blob/main/results/server.png)
+![Alt text](https://github.com/JiangboWANGfr/Server_Client/blob/main/results/client.png)
 
 ## License
