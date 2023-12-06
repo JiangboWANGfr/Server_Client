@@ -12,7 +12,7 @@ IMPORTANT: launch the server first, then the client.
 ### Windows
 
 ```
-1. gcc ./server.c -o server.exe
+1. gcc ./server.c -o server.exe -lws2_32
 2. ./server.exe
 ```
 
@@ -26,7 +26,7 @@ IMPORTANT: launch the server first, then the client.
 ## Client
 
 ```
-1. gcc ./client.c -o client.exe
+1. gcc ./client.c -o client.exe -lws2_32
 2. ./client.exe
 ```
 
