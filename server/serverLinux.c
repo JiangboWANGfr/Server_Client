@@ -129,6 +129,14 @@ int main()
         char receiveBuffer[1024];
         if (serverReceiveData(new_socket, receiveBuffer, sizeof(receiveBuffer)) == 0)
         {
+            if (strcmp(receiveBuffer, "1") == 0)
+            {
+                servoforward();
+            }
+            if (strcmp(receiveBuffer, "0") == 0)
+            {
+                servobarkword();
+            }
             printf("Received: %s\n", receiveBuffer);
             int fakedata = 100; // TODO: Replace with actual data IN THE PROJECT
             snprintf(sendBuffer, sizeof(sendBuffer), "OK %d", fakedata);

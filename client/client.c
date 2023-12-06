@@ -7,7 +7,7 @@
 
 #define PORT 8081
 // #define SERVER_ADDR "192.168.249.7" //todo:  server ip for the PROJECT
-#define SERVER_ADDR "127.0.0.1"     // todo:  server ip for test just in windows localhost
+#define SERVER_ADDR "127.0.0.1" // todo:  server ip for test just in windows localhost
 
 SOCKET sock = INVALID_SOCKET;
 
@@ -108,7 +108,7 @@ int main()
 
     while (running)
     {
-        printf("[INFO] Enter message to send to server: \n");
+        printf("[INFO] Message to send: ");
         fgets(data_to_send, sizeof(data_to_send), stdin);
 
         // check if user wants to quit
@@ -122,8 +122,6 @@ int main()
         {
             break;
         }
-        printf("[INFO] Client sent: %s\n", data_to_send);
-
         // receive data from server
         if (clientReceiveData(buffer, sizeof(buffer)) != 0)
         {
